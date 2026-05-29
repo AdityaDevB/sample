@@ -1,0 +1,28 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "study abt backend",
+  "homepage": "https://github.com/AdityaDevB/sample#readme",
+  "bugs": {
+    "url": "https://github.com/AdityaDevB/sample/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdityaDevB/sample.git"
+  },
+  "license": "ISC",
+  "author": "Aditya Dev",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "Start": "node Backend/src/index.js",
+    "dev": "nodemon Backend/src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.2",
+    "nodemon": "^3.1.14"
+  }
+}
